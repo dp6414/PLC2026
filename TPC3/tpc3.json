@@ -1,0 +1,43 @@
+[
+    {
+        "id": "LIMIT",
+        "expreg": "LIMIT"
+    },
+    {
+        "id": "VAR",
+        "expreg": "\\?[a-z]*"
+    },
+    {
+        "id": "ID_LINGUA",
+        "expreg": "@[a-z]{2,}"
+    },
+    {
+        "id": "ID_CONCEITOS",
+        "expreg": "[A-Za-z0-9]+(:[A-Za-z0-9]+)?"
+
+    },
+    {
+        "id": "DELIMITADOR",
+        "expreg": "\\{*|\\}*"
+    },
+    {
+        "id": "STRING",
+        "expreg": "\"[^\"]*\""
+    },
+    {
+        "id": "INT",
+        "expreg": "\\d*"
+    },
+    {
+        "id": "SKIP",
+        "expreg": "[ \\t]"
+    },
+    {
+        "id": "NEWLINE",
+        "expreg": "\\n"
+    },
+    {
+        "id": "ERRO",
+        "expreg": "."
+    }
+]
